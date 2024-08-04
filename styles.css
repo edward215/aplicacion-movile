@@ -1,0 +1,94 @@
+
+body {
+    background-image: url('assets/imagen de fondo login.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0; /* Elimina márgenes por defecto */
+}
+
+
+/* Estilo para el subtítulo */
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1em 0;
+    text-align: center;
+}
+
+/* Estilos para el formulario */
+.formulario {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 90%; /* Ancho del formulario en porcentaje */
+    max-width: 400px; /* Ancho máximo para pantallas grandes */
+}
+
+/* Estilo para las etiquetas */
+.label_email, .label {
+    display: block;
+    margin-bottom: 5px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+/* Estilo para los inputs */
+.formulario_input {
+    width: 100%;
+    padding: 10px 0 10px 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Estilo para el botón de enviar */
+.formulario_submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario_submit:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para el enlace de registro */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #FFD700;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem; /* Reducir tamaño del título en pantallas pequeñas */
+    }
+
+    h2 {
+        font-size: 1.25rem; /* Reducir tamaño del subtítulo en pantallas pequeñas */
+    }
+
+    .formulario {
+        padding: 15px; /* Ajustar padding en pantallas pequeñas */
+    }
+
+.formulario_checkbox {
+	margin-bottom: 10px;
+}
